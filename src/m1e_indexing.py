@@ -103,6 +103,7 @@ def examples_of_indexing(sequence):
 
     print(sequence[length])  # Oops!  Generates an error.
 
+
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------

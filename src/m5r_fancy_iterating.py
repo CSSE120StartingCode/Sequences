@@ -27,7 +27,7 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 #          -- SELECTING items that ARE even integers and
 #          -- LOOKING only at items AT even-numbered indices.
 #   then:
-#      change the above TODO to DONE.
+#      change the above TO DO to DONE.
 # ----------------------------------------------------------------------
 
 

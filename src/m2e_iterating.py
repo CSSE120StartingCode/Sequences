@@ -99,8 +99,8 @@ def fill_from_colors(window, graphics_object, colors):
            after doing so, to create a "flashing" display.    
     Type hints:
       :type window: rg.RoseWindow
-      :type circle: rg._ShapeWithOutline
-      :type colors: list or tuple (of rosegraphics colors)
+      :type graphics_object: rg._Shape
+      :type colors: list or tuple str
     """
     # ------------------------------------------------------------------
     # EXAMPLE 3.  Iterates through a sequence of colors.
@@ -248,6 +248,7 @@ def run_test_print_letters():
     print()
     print('Test 2: Print the letters in "Layla"')
     print_letters('Layla')
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.

@@ -28,7 +28,7 @@ def main():
     # When you have examined the 4 sequences below and understand how
     # the testing will work for this module, asking questions as needed,
     # THEN:
-    #     change the above TODO to DONE.
+    #     change the above TO DO to DONE.
     # ------------------------------------------------------------------
     sequence1 = [55, 'hello', 33, rg.Point(90, 25)]  # List
     sequence2 = [90, 'dog', 87, 'cat', 'bone', 33, 100]  # List
@@ -43,7 +43,7 @@ def main():
     #     1. Locate the statements just below this comment
     #          that call TEST functions.
     #     2. UN-comment only one test at a time.
-    #     3. Implement that function per its TODO.
+    #     3. Implement that function per its TO DO.
     #     4. When satisfied with your work, move onto the next test.
     # ------------------------------------------------------------------
 

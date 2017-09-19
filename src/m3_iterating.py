@@ -81,7 +81,7 @@ def run_test_count_negatives():
     print('Test 5 expected:', expected)
     print('       actual:  ', actual)
 
-    # TODO 2 (continued):  Add your 2 ADDITIONAL tests here:
+    # TO DO 2 (continued):  Add your 2 ADDITIONAL tests here:
 
 
 def count_negatives(seq):
@@ -181,7 +181,7 @@ def run_test_count_short_ones():
     print('Test 7 expected:', expected)
     print('       actual:  ', actual)
 
-    # TODO 4 (continued):  Add your 2 ADDITIONAL test(s) here:
+    # TO DO 4 (continued):  Add your 2 ADDITIONAL test(s) here:
 
 
 def count_short_ones(seq_of_lists):

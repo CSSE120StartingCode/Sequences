@@ -41,7 +41,7 @@ def run_test_sum_sequence():
     #     -- How one can generate and use RANDOM test cases
     #     -- How one can test using PROBABILITY THEORY
     #   then:
-    #      change the above TODO to DONE.
+    #      change the above TO DO to DONE.
     # ------------------------------------------------------------------
 
     # ------------------------------------------------------------------
@@ -341,7 +341,7 @@ def run_test_count_items_bigger_than():
     print('  to see whether or not that seems to be true')
     print('  for your code (and Python\'s pseudo-random numbers).')
 
-    # TODO 4 (continued):  Add your 2 ADDITIONAL tests here:
+    # TO DO 4 (continued):  Add your 2 ADDITIONAL tests here:
 
 
 def count_items_bigger_than(numbers, threshold):
@@ -481,7 +481,7 @@ def run_test_count_positive_sines():
     print('Test 10 expected:', expected)
     print('        actual:  ', actual)
 
-    # TODO 6 (continued):  Add your 1 ADDITIONAL test here:
+    # TO DO 6 (continued):  Add your 1 ADDITIONAL test here:
 
 
 def count_positive_sines(numbers):
@@ -585,7 +585,7 @@ def run_test_sum_first_n():
     print('Test 7 expected:', expected)
     print('       actual:  ', actual)
 
-    # TODO 8 (continued):  Add your 2 ADDITIONAL tests here:
+    # TO DO 8 (continued):  Add your 2 ADDITIONAL tests here:
 
 
 def sum_first_n(numbers, n):
