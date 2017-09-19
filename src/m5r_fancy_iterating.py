@@ -12,7 +12,7 @@ is different from:
   -- LOOKING only at items AT even-numbered indices.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  September 2017.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 # ----------------------------------------------------------------------
@@ -33,9 +33,9 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_sum_string_lengths()
-    test_sum_even_integers()
-    test_sum_items_at_even_indices()
+    run_test_sum_string_lengths()
+    run_test_sum_even_integers()
+    run_test_sum_items_at_even_indices()
 
 # ----------------------------------------------------------------------
 # The TEST functions are further down in the file,
@@ -186,7 +186,7 @@ def sum_items_at_even_indices(sequence):
 # ----------------------------------------------------------------------
 
 
-def test_sum_string_lengths():
+def run_test_sum_string_lengths():
     """ Tests the   sum_string_lengths   function. """
     print()
     print('--------------------------------------------------')
@@ -201,7 +201,7 @@ def test_sum_string_lengths():
     print('Returned, expected:', total2, 27)
 
 
-def test_sum_even_integers():
+def run_test_sum_even_integers():
     """ Tests the   sum_even_integers   function. """
     print()
     print('--------------------------------------------------')
@@ -217,7 +217,7 @@ def test_sum_even_integers():
     print('Returned, expected:', total3, 26)
 
 
-def test_sum_items_at_even_indices():
+def run_test_sum_items_at_even_indices():
     """ Tests the   sum_items_at_even_indices   function. """
     print()
     print('--------------------------------------------------')

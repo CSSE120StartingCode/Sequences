@@ -13,7 +13,7 @@ is different from:
   -- LOOKING only at items AT even-numbered indices.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  September 2017.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
@@ -47,24 +47,24 @@ def main():
     #     4. When satisfied with your work, move onto the next test.
     # ------------------------------------------------------------------
 
-    test_print_all_items_forwards(sequence1, sequence2,
+    run_test_print_all_items_forwards(sequence1, sequence2,
                                   sequence3, sequence4)
-#     test_print_all_items_backwards(sequence1, sequence2,
+#     run_test_print_all_items_backwards(sequence1, sequence2,
 #                                    sequence3, sequence4)
-#     test_print_items_at_odd_indices(sequence1, sequence2,
+#     run_test_print_items_at_odd_indices(sequence1, sequence2,
 #                                     sequence3, sequence4)
-#     test_print_items_in_second_half(sequence1, sequence2,
+#     run_test_print_items_in_second_half(sequence1, sequence2,
 #                                     sequence3, sequence4)
 #
-#     test_print_items_that_are_bigger_than_5()  # Uses different sequences
+#     run_test_print_items_that_are_bigger_than_5()  # Uses different sequences
 #
-#     test_print_items_that_are_strings(sequence1, sequence2,
+#     run_test_print_items_that_are_strings(sequence1, sequence2,
 #                                       sequence3, sequence4)
-#     test_print_items_that_are_odd_integers(sequence1, sequence2,
+#     run_test_print_items_that_are_odd_integers(sequence1, sequence2,
 #                                            sequence3, sequence4)
 
 
-def test_print_all_items_forwards(sequence1, sequence2, sequence3,
+def run_test_print_all_items_forwards(sequence1, sequence2, sequence3,
                                   sequence4):
     """ Tests the   print_all_items_forwards   function. """
     print()
@@ -100,7 +100,7 @@ def test_print_all_items_forwards(sequence1, sequence2, sequence3,
     print_all_items_forwards(sequence4)
 
 
-def test_print_all_items_backwards(sequence1, sequence2,
+def run_test_print_all_items_backwards(sequence1, sequence2,
                                    sequence3, sequence4):
     """ Tests the   print_all_items_backwards   function. """
     print()
@@ -136,7 +136,7 @@ def test_print_all_items_backwards(sequence1, sequence2,
     print_all_items_backwards(sequence4)
 
 
-def test_print_items_at_odd_indices(sequence1, sequence2,
+def run_test_print_items_at_odd_indices(sequence1, sequence2,
                                     sequence3, sequence4):
     print()
     print('***********************************************************')
@@ -180,7 +180,7 @@ def test_print_items_at_odd_indices(sequence1, sequence2,
     print_items_at_odd_indices(sequence4)
 
 
-def test_print_items_in_second_half(sequence1, sequence2,
+def run_test_print_items_in_second_half(sequence1, sequence2,
                                     sequence3, sequence4):
     print()
     print('***********************************************************')
@@ -216,7 +216,7 @@ def test_print_items_in_second_half(sequence1, sequence2,
     print_items_in_second_half(sequence4)
 
 
-def test_print_items_that_are_bigger_than_5():
+def run_test_print_items_that_are_bigger_than_5():
     # Note:  The tests of this function use sequences that are DIFFERENT
     #        than the tests of the other functions.
     print()
@@ -253,7 +253,7 @@ def test_print_items_that_are_bigger_than_5():
     print_items_that_are_bigger_than_5([5, 5, 5])
 
 
-def test_print_items_that_are_strings(sequence1, sequence2,
+def run_test_print_items_that_are_strings(sequence1, sequence2,
                                       sequence3, sequence4):
     print()
     print('***********************************************************')
@@ -303,7 +303,7 @@ def test_print_items_that_are_strings(sequence1, sequence2,
     print_items_that_are_strings(sequence4)
 
 
-def test_print_items_that_are_odd_integers(sequence1, sequence2,
+def run_test_print_items_that_are_odd_integers(sequence1, sequence2,
                                            sequence3, sequence4):
     print()
     print('***********************************************************')

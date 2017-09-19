@@ -9,7 +9,7 @@ It shows two ways to do so:
   -- using just IN (no RANGE)
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         and their colleagues.  January 2017.
+         and their colleagues.
 """
 
 import rosegraphics as rg
@@ -17,10 +17,10 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_sum_abs_of_all()
-    test_sum_abs_of_all_without_range()
-    test_fill_from_colors()
-    test_print_letters()
+    run_test_sum_abs_of_all()
+    run_test_sum_abs_of_all_without_range()
+    run_test_fill_from_colors()
+    run_test_print_letters()
 
 # ----------------------------------------------------------------------
 # The TEST functions are further down in the file,
@@ -127,7 +127,7 @@ def print_letters(string):
 # ----------------------------------------------------------------------
 
 
-def test_sum_abs_of_all():
+def run_test_sum_abs_of_all():
     """ Tests the   sum_abs_of_all   function. """
     print()
     print('--------------------------------------------------')
@@ -144,7 +144,7 @@ def test_sum_abs_of_all():
     print('Returned, expected:', total3, 0)
 
 
-def test_sum_abs_of_all_without_range():
+def run_test_sum_abs_of_all_without_range():
     """ Tests the   sum_abs_of_all_without_range   function. """
     print()
     print('--------------------------------------------------')
@@ -161,7 +161,7 @@ def test_sum_abs_of_all_without_range():
     print('Returned, expected:', total3, 0)
 
 
-def test_fill_from_colors():
+def run_test_fill_from_colors():
     """ Tests the   fill_from_colors   function. """
     print('--------------------------------------------------')
     print('Testing the   fill_from_colors   function:')
@@ -234,7 +234,7 @@ def test_fill_from_colors():
     window.close_on_mouse_click()
 
 
-def test_print_letters():
+def run_test_print_letters():
     """ Tests the   print_letters   function. """
     print()
     print('--------------------------------------------------')

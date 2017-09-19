@@ -4,7 +4,7 @@ in its most classic form:
   -- Iterate all the way through the sequence, from beginning to end.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  January 2017.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
@@ -12,12 +12,12 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_count_negatives()
-    test_count_short_ones()
-    test_draw_circles()
+    run_test_count_negatives()
+    run_test_count_short_ones()
+    run_test_draw_circles()
 
 
-def test_count_negatives():
+def run_test_count_negatives():
     """ Tests the   count_negatives   function. """
     # ------------------------------------------------------------------
     # TODO: 2. Implement this TEST function.
@@ -26,7 +26,7 @@ def test_count_negatives():
     #
     # Use the same 4-step process as for previous TEST functions:
     #
-    #   Step 1: Read the green doc-string (below) that provides the
+    #   Step 1: Read the doc-string (below) that provides the
     #     specification of the function you are to test.
     #     Understand what that function SHOULD return.
     #
@@ -105,7 +105,7 @@ def count_negatives(seq):
     # ------------------------------------------------------------------
 
 
-def test_count_short_ones():
+def run_test_count_short_ones():
     """ Tests the   count_short_ones   function. """
     # ------------------------------------------------------------------
     # TODO: 4. Implement this TEST function.
@@ -210,7 +210,7 @@ def count_short_ones(seq_of_lists):
     # ------------------------------------------------------------------
 
 
-def test_draw_circles():
+def run_test_draw_circles():
     """ Tests the   draw_circles   function. """
     # ------------------------------------------------------------------
     # We have supplied two tests for you, on a single window.

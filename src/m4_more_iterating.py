@@ -9,7 +9,7 @@ It also demonstrates using an ORACLE and/or PROBABILITY THEORY
 in testing and BOUNDARY (EDGE) TESTING.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  January 2017.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import random
@@ -19,13 +19,13 @@ import math
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_sum_sequence()
-    test_count_items_bigger_than()
-    test_count_positive_sines()
-    test_sum_first_n()
+    run_test_sum_sequence()
+    run_test_count_items_bigger_than()
+    run_test_count_positive_sines()
+    run_test_sum_first_n()
 
 
-def test_sum_sequence():
+def run_test_sum_sequence():
     """ Tests the   sum_sequence   function. """
     print()
     print('--------------------------------------------------')
@@ -214,7 +214,7 @@ def sum_sequence(sequence):
     # ------------------------------------------------------------------
 
 
-def test_count_items_bigger_than():
+def run_test_count_items_bigger_than():
     """ Tests the   count_items_bigger_than   function. """
     # ------------------------------------------------------------------
     # TODO: 4. Implement this TEST function.
@@ -383,7 +383,7 @@ def count_items_bigger_than(numbers, threshold):
     # ------------------------------------------------------------------
 
 
-def test_count_positive_sines():
+def run_test_count_positive_sines():
     """ Tests the   count_positive_sines   function. """
     # ------------------------------------------------------------------
     # TODO: 6. Implement this TEST function.
@@ -513,7 +513,7 @@ def count_positive_sines(numbers):
     # ------------------------------------------------------------------
 
 
-def test_sum_first_n():
+def run_test_sum_first_n():
     """ Tests the   sum_first_n   function. """
     # ------------------------------------------------------------------
     # TODO: 8. Implement this TEST function.
