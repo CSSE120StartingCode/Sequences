@@ -97,7 +97,7 @@ def count_negatives(seq):
       count_negatives([-500, -500, -500, -0.0000001])  returns  4
       count_negatives((8, 13, 7, -5))  returns  1
     Type hints:
-      :type seq: list or tuple
+      :type seq: (list | tuple) of (int | float)
     """
     # ------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
@@ -202,7 +202,7 @@ def count_short_ones(seq_of_lists):
       since  'we'  and  'is'  and  ''  all have length less than 3.
 
     Type hints:
-      :type seq_of_lists: list or tuple (whose items are sequences too)
+      :type seq_of_lists: (list | tuple) of (list | tuple | str)
     """
     # ------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
@@ -282,13 +282,14 @@ def draw_circles(window, points, radius, color):
     Type hints:
       :type window: rg.RoseWindow
       :type points: [rg.Point]
-      :type radius: float
+      :type radius: int | float
       :type color: str
     """
     # ------------------------------------------------------------------
     # TODO: 6. Implement and test this function.
     #          Tests have been written for you (above).
     # ------------------------------------------------------------------
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
